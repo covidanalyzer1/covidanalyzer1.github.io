@@ -23,7 +23,7 @@ const Show = (props) => {
   if(props.identity==="hi"){
       toprint = (
         <div className="head">
-          <div className="headitem12"><Link to={'/'+ props.name.state}>{props.name.state}</Link></div>
+          <div className="headitem12"><Link to={'/state/'+ props.name.state}>{props.name.state}</Link></div>
           <div className="headitem2" >{props.name.confirmed}<span><img style={{width : "8px", height:"12px"}} src={Red} alt='↑'/></span>{props.name.deltaconfirmed}</div>
           <div className="headitem2" >{props.name.active}</div>  
           <div className="headitem2" >{props.name.recovered}<span><img style={{width : "8px", height:"12px"}} src={Green} alt='↑'/></span>{props.name.deltarecovered}</div>

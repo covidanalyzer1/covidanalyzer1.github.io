@@ -25,9 +25,6 @@ const State = props => {
       setBarList(barData)
     });
   }, []);
-  useEffect(() => {
-    document.title = "Covid Analyzer"
-  }, []);
   
   return(<div>
     <Navbar/>

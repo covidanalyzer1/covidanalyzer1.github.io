@@ -5,10 +5,10 @@ import District from './district'
 import Country from './country'
 
 const Main = () =>(<React.Fragment>
+    <Route path="/" exact component={State} />
     <Switch>
     <Route path="/world" component={Country} />    
-    <Route path="/:id" exact component={District} />
-    <Route path="/" exact component={State} />
+    <Route path="/state/:id" exact component={District} />
    </Switch>
 </React.Fragment>
     
