@@ -1,6 +1,6 @@
 {
   "name": "covid",
-  "homepage": "https://covidanalyzer.github.io",
+  "homepage": "https://covidanalyzer1.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
